@@ -22,7 +22,7 @@
 
             <nav>
                 <ul>
-                  <li> <a href="./public/2Q1GLithiumNovales.html"> First Graded </a> </li>
+                  <li> <a href="../public/2Q1GLithiumNovales.html"> First Graded </a> </li>
                   <li> <a href="#"> Second Graded </a> </li>
                   <li> <a href="#"> Third Graded </a> </li>
                   <li> <a href="#"> Fourth Graded </a> </li>
