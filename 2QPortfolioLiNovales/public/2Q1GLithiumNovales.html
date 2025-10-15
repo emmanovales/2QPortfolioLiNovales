@@ -19,34 +19,68 @@
     body {
         background-color: #445e8d;
         font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 10;
     }
     header {
         background-color: #304670;
-        padding: 20px;
-        border-bottom: 2px solid #1c1e39;
+        padding: 10px;
         display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
+        align-items: center;
         gap: 20px;
     }   
     header img {
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
+        align: left;
     }
     nav {
         text-align: center;
         margin-bottom: 20px;
-        color:#53579c;
+        color:#445e8d;
         font-size: 25px;
         font-weight: bold;
         display : flex;
         justify-content: center;
-        gap: 25px;
+        gap: 20px;
 
-    }
+    }   
     nav a {
-        color: #1c1e39;
+        color: #c9cad8;
         text-decoration: none;
+        margin-top: 10px;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    div.cat-maine-coon {
+        margin: 20px;
+        padding: 30px;
+        background-color: #647daa;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px #1c1e39;
+        align-items: center;
+        gap: 20px;
+        width: 90%;
+        display: flex;
+    }
+    div.cat-info-maine-coon {
+        flex: 1;
+        text-align: left;
+    }
+    div.cat-info-maine-coon h1 {
+        color: #1c1e39;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    div.cat-info-maine-coon p {
+        margin: 5px 0;
+        text-align: left;
     }
     h1 {
         color: #1c1e39;
@@ -67,14 +101,29 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 30%;
+    }
+    footer {
+        background-color: #304670;
+        color: #c9cad8;
+        padding: 10px;
+        text-align: left;
+    }
+    footer p {
+        margin: 5px 0;
+        text-align: left;
+    }
+    footer ul {
+        list-style-type: none;
+        padding: 0;
+        color: #c9cad8;
     }
 </style>
 </head>
 <body>
     <header>
-            <img src="../assets/catmeme2.jpg" alt="Cat Meme" height="100" width="100"/>
         <nav>
+            <img src="../assets/catmeme2.jpg" alt="Cat Meme" height="100" width="100"/>
             <a href="../index.html"> Home </a>
             <a href="../2QPortfolioLiRivera.html"> About Cats </a>
             <a href="../2QPortfolioLiCristobal.html"> Cat Memes </a>
@@ -82,13 +131,52 @@
     </header>
 
         <h1> Why We Love Cats! </h1>
-        <h2> Popular Cat Breeds </h2>
+        <h2> All About Cats: Popular Cat Breeds </h2>
 
-        <h2> Maine Coon </h2>
-        <img src="../assets/mainecoon1.jpg" alt="Maine Coon Cat" height="500" width="60"/>
-        <p> The Maine Coon is one of the largest domesticated cat breeds. They are known for their friendly and intelligent nature. </p>
+        <div class="cat-maine-coon">
+            <img src="../assets/mainecoon1.jpg" alt="Maine Coon Cat"/>
+            <div class="cat-info-maine-coon">
+            <h1> Maine Coon </h1>
+            <p> The Maine Coon is one of the largest domesticated cat breeds. They are known for their friendly and intelligent nature. </p>
+            <p> Size: 10 - 16 inches in height, larger compared to other domestic cats. </p>
+            <p> Weight: 4.8 - 8.2kg </p>
+            <p> Color: Various colors and patterns, including tabby, solid, and bi-color. </p>
+            <p> Lifespan: 10-13 years on average, with the oldest recorded age being 31 years.</p>
+            <p> Personality: Friendly, intelligent, and sociable. They are known for their playful and affectionate nature.</p>
+        </div>
+    </div>
 
+        <div class="cat-maine-coon">
+            <img src="../assets/ragdoll1.png" alt="Ragdoll Cat"/>
+            <div class="cat-info-maine-coon">
+            <h1> Ragdoll </h1>
+            <p> The Ragdoll is a large and affectionate cat breed known for its striking blue eyes and semi-longhair coat. </p>
+            <p> Size: 9 - 11 inches in height, with a long and sturdy body. </p>
+            <p> Weight: 4.5 - 9 kg </p>
+            <p> Color: Various colors and patterns, including colorpoint, mitted, and bicolor. </p>
+            <p> Lifespan: 12-17 years on average, with the oldest recorded age being 38 years.</p>
+            <p> Personality: Friendly, affectionate, and sociable. They are known for their gentle and laid-back nature.</p>
+        </div>
+    </div>
 
-
+        <div class="cat-maine-coon">
+            <img src="../assets/ragdoll1.png" alt="Ragdoll Cat"/>
+            <div class="cat-info-maine-coon">
+            <h1> Ragdoll </h1>
+            <p> The Ragdoll is a large and affectionate cat breed known for its striking blue eyes and semi-longhair coat. </p>
+            <p> Size: 9 - 11 inches in height, with a long and sturdy body. </p>
+            <p> Weight: 4.5 - 9 kg </p>
+            <p> Color: Various colors and patterns, including colorpoint, mitted, and bicolor. </p>
+            <p> Lifespan: 12-17 years on average, with the oldest recorded age being 38 years.</p>
+            <p> Personality: Friendly, affectionate, and sociable. They are known for their gentle and laid-back nature.</p>
+        </div>
+    </div>
+<footer>
+    <p> References: </p>
+    <ul>
+        <li> <a href="https://www.petmd.com/cat/breeds/maine-coon"> PetMD - Maine Coon </a> </li>
+        <li> <a href="https://www.petmd.com/cat/breeds/ragdoll"> PetMD - Ragdoll </a> </li>
+    </ul>
+</footer>
 </body>
 </html>
